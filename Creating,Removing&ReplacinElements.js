@@ -27,4 +27,19 @@ console.log(ne)
 // same in querryselector
 
 
+// insert text node in element
+let element=document.createElement("li")
+element.className=("class1")
+element.id=("Django")
+element.setAttribute("type","list")
+
+let text=document.createTextNode('Python')
+element.appendChild(text)
+
+let out=document.querySelector(".this")
+out.appendChild(element)
+console.log(out)
+
+
+
 
