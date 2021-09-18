@@ -28,6 +28,7 @@ console.log(ne)
 
 
 // insert text node in element
+
 let element=document.createElement("li")
 element.className=("class1")
 element.id=("Django")
@@ -51,4 +52,14 @@ els.appendChild(txt)
 element.replaceWith(els)
 
 // repalce element with id 
+let element=document.createElement("li")
+element.className=("class1")
+element.id=("Django")
+element.setAttribute("type","list")
+
+let text=document.createTextNode('Python')
+element.appendChild(text)
+
+let rep=document.getElementById("myul1");
+rep.replaceChild(element,document.getElementById("lui"))
 
