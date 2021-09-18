@@ -40,6 +40,15 @@ let out=document.querySelector(".this")
 out.appendChild(element)
 console.log(out)
 
+// replace exist defiened element in java script
 
+let els=document.createElement("h1")
+els.childNodes=("cl1")
+els.id=("07")
 
+let txt=document.createTextNode("hello")
+els.appendChild(txt)
+element.replaceWith(els)
+
+// repalce element with id 
 
