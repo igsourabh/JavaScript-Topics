@@ -30,37 +30,56 @@ console.log(ne)
 // insert text node in element
 
 let element=document.createElement("li")
-element.className=("class1")
-element.id=("Django")
+element.className=("myclass")
+element.id=("007")
 element.setAttribute("type","list")
 
-let text=document.createTextNode('Python')
-element.appendChild(text)
+let textNODE=document.createTextNode("this is my text node")
+element.appendChild(textNODE)
 
-let out=document.querySelector(".this")
-out.appendChild(element)
-console.log(out)
+let els=document.querySelector(".this")
+els.appendChild(element)
+
 
 // replace exist defiened element in java script
 
-let els=document.createElement("h1")
-els.childNodes=("cl1")
-els.id=("07")
 
-let txt=document.createTextNode("hello")
-els.appendChild(txt)
-element.replaceWith(els)
+let element=document.createElement("li")
+element.className=("myclass")
+element.id=("007")
+element.setAttribute("type","list")
+
+let textNODE=document.createTextNode("this is my text node")
+element.appendChild(textNODE)
+
+let els=document.querySelector(".this")
+els.appendChild(element)
+
+
+let replace=document.createElement("h1")
+element.className=("myclass1")
+element.id=("07")
+element.setAttribute("type","li")
+
+let txt=document.createTextNode("this is heading")
+replace.appendChild(txt)
+
+element.replaceWith(replace)
+
 
 // repalce element with id 
 
 let element=document.createElement("li")
-element.className=("class1")
-element.id=("Django")
+element.className=("myclass")
+element.id=("007")
 element.setAttribute("type","list")
 
-let text=document.createTextNode('Python')
-element.appendChild(text)
+let textNODE=document.createTextNode("this is my text node")
+element.appendChild(textNODE)
 
-let rep=document.getElementById("myul1");
-rep.replaceChild(element,document.getElementById("lui"))
+
+let repid=document.getElementById("myul1")
+repid.replaceChild(element,document.getElementById('fui'))
+
+
 
