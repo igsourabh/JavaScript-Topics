@@ -1,4 +1,4 @@
-// insert element in id
+// insert element in class
 
 let ss=document.createElement("li")
 
@@ -82,4 +82,30 @@ let repid=document.getElementById("myul1")
 repid.replaceChild(element,document.getElementById('fui'))
 
 
+// ruff program
 
+
+
+let  ele1=document.createElement("li")
+ele1.className=("elem")
+ele1.id=("007")
+ele1.setAttribute("type","element")
+
+let txt=document.createTextNode("Hell11sssss111o")
+ele1.appendChild(txt)
+
+let sls=document.querySelector(".this")
+sls.appendChild(ele1)
+
+
+
+
+
+let  ele=document.createElement("li")
+ele.className=("elem")
+ele.id=("007")
+ele.setAttribute("type","element")
+let txt1=document.createTextNode("Hello")
+ele.appendChild(txt1)
+
+ele1.replaceWith(ele)
