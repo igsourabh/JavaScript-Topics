@@ -12,7 +12,7 @@ function genralCar(givenName, givenSpeed, givenEngien) {
 let car = new genralCar('Mustang GT',180,"v8")
 console.log(car)
 
-// analyze function compaer car
+// analyze function compare car
 function genralCar(givenName, givenSpeed, givenEngien) {
     this.name=givenName
     this.speed=givenSpeed
