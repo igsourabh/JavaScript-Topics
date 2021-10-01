@@ -41,7 +41,6 @@ function givenCar(GivenName, GivenEnigen,GivenSpeed) {
     
 givenCar.prototype.setName=function(newName) {
  this.name=newName
-
 }
 
 givenCar.prototype.setName2=function(newEngien) {
