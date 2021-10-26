@@ -14,3 +14,24 @@ function getdata() {
 getdata()
 
 
+// fetch api 2
+
+function postData(){
+    url = "https://reqres.in/api/users";
+    data = '{"name": "morpheus","job": "leader"}'
+    params = {
+        method:'post',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: data
+    }
+    fetch(url, params).then(response=> response.json())
+    .then(data => console.log(data)
+    )
+
+postData()
+
+
+
+
