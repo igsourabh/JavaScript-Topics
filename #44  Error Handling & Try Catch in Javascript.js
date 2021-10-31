@@ -10,4 +10,18 @@ if (a!=undefined) {
 else{
     console.log("not deifened")
 }
+//  error handling uing try catch finally
 
+try {
+    // fdsfsdfsd
+    console.log("are you good")
+    functionharry()
+}
+ catch (error) {
+    console.log("are you okay")
+    console.log(error)
+}
+
+finally{
+    console.log("finish")
+}
