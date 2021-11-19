@@ -10,7 +10,7 @@ reg=/har{2}y/  //r can occur exactly 2 times//
 reg=/har{0,2}y/ //r can exactly 0 to 2 times//  
 
 // groupping
-reg=/(har){2}
+reg=/(har){2}/
 reg=/(har){2}([0-9]r){3}/
 
 
